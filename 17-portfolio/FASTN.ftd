@@ -1,0 +1,38 @@
+-- import: fastn
+
+-- fastn.package: hello
+
+-- fastn.dependency: fastn-community.github.io/bling
+-- fastn.dependency: fastn-community.github.io/midnight-rush
+-- fastn.dependency: fastn-community.github.io/misty-gray-cs
+-- fastn.dependency: fastn-community.github.io/lobster-typography
+-- fastn.dependency: fastn-community.github.io/banner
+;; UNCOMMENT NEXT LINE
+-- fastn.dependency: fastn-community.github.io/midnight-rush-hero as hero
+-- fastn.dependency: fastn-community.github.io/midnight-storm-hero as hero
+
+-- fastn.auto-import: hello/ds
+
+-- fastn.sitemap:
+
+# Home: /
+
+## Intro: /
+
+- My Index page: /
+- `a` page: /a/
+document: /more-pages/a.ftd
+
+
+## Subsec B: /b/
+document: /more-pages/b.ftd
+
+# Other: /new-page/
+
+# My Portfolio: /portfolio/
+
+
+-- fastn.redirects:
+
+/page-a/ -> /a/
+/fastn/ -> https://fastn.com/
